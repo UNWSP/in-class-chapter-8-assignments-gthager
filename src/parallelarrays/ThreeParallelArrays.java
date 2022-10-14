@@ -28,8 +28,7 @@ public class ThreeParallelArrays {
 				}
 			}
 			//prints abbreviation and capital if state is found
-			System.out.println("Abbreviation: "+ statesAbbreviation[pos]);
-			System.out.println("Capital: "+ capitals[pos]);
+			System.out.println(statesAbbreviation[pos] + ": " + capitals[pos]) ;
 		}
 	}
 }
