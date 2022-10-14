@@ -11,6 +11,7 @@ public class ThreeParallelArrays {
 		//variables
 		Scanner input = new Scanner(System.in);
 		String state;
+		String zip;
 		int pos = 0;
 		while (true) {
 			//gets user input
@@ -29,6 +30,9 @@ public class ThreeParallelArrays {
 			}
 			//prints abbreviation and capital if state is found
 			System.out.println(statesAbbreviation[pos] + ": " + capitals[pos]) ;
+			System.out.println("Input the zip code for the capital: ");
+			zip = input.next();
+			capitals[pos] = capitals[pos]+' '+zip;
 		}
 	}
 }
